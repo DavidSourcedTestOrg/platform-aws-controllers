@@ -4,7 +4,8 @@ helmCharts:
   - name: eks-chart
     includeCRDs: true
     namespace: aws-controllers
-    valuesInline: {}
+    valuesInline:
+      aws.region: ap-southeast-2
     version: v0.1.1
 
 
