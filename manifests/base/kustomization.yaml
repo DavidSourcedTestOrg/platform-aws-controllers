@@ -5,7 +5,8 @@ helmCharts:
     includeCRDs: true
     namespace: aws-controllers
     valuesInline:
-      aws.region: ap-southeast-2
+      aws:
+        region: ap-southeast-2
     version: v0.1.1
 
 
